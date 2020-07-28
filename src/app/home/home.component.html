@@ -1,0 +1,14 @@
+<p>
+  <mat-toolbar style="display: flex; justify-content: space-between;">
+    <span>My Application</span>
+    <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+  </mat-toolbar>
+</p>
+<div style="display: flex; justify-content: space-evenly;" #lazyLoading>
+  <button mat-raised-button color="primary" (click)="getLazyTable()">
+    Open Table
+  </button>
+  <button mat-raised-button color="primary" (click)="getLazyImage()">
+    Open Image Section
+  </button>
+</div>
